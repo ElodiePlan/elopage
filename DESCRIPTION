@@ -1,0 +1,36 @@
+Package: elopage
+Type: Package
+Title: Tool for pharmacometrics 
+Version: 1.0.0
+Date: 2017-06-06 
+Authors@R: c(
+    person("Elodie", "Plan",
+    email = "elodie.plan@gmail.com", role = c("aut", "cre")))
+Description: Collection of functions for pharmacometrics
+Depends:
+    R (>= 3.2.2)
+LinkingTo: Rcpp,
+    BH
+Imports:
+    dplyr (>= 0.5.0),
+    data.table,
+    ggplot2,
+    lazyeval,
+    magrittr,
+    parallel,
+    purrr,
+    Rcpp (>= 0.12.10),
+    readr (>= 1.0.0),
+    stringr,
+    tibble,
+    rlang
+Suggests:
+    devtools,
+    knitr,
+    rmarkdown,
+    testthat
+LazyData: TRUE
+License: MIT + file LICENSE
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+
